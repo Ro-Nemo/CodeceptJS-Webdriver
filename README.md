@@ -35,21 +35,16 @@ sudo apt-get update && sudo apt-get dist-upgrade
 - sudo selenium-standalone start      #(then press Ctrl Z to stop service)#
 - sudo npm install -g selenium-webdriver
 
-8) 
-- sudo npm install selenium-standalone@latest -g
-- sudo selenium-standalone install
-- sudo selenium-standalone start      #(then press Ctrl Z to stop service)#
-
-9) Install faker
+8) Install faker
 - sudo npm install faker
 - sudo npm install cpf_cnpj
 
-10) Install MailSlurp
+9) Install MailSlurp
 - Create an account at MailSlurp.com (get apikey)
 - npm i @codeceptjs/mailslurp-helper --save-dev     #(if error, insert --force at the end of command)#
 - npx codeceptjs def
 
-11) Restart Computer
+10) Restart Computer
 
 ============ Start CodeceptJS test ============
 
