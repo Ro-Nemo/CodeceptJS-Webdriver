@@ -1,72 +1,65 @@
 # CodeceptJS-Webdriver
-
-
 OS Name: Ubuntu 20.04.2 LTS
 Codeceptjs: 3.0.5
 Webdriverio: 6.12.1
 
 
+============ Install CodeceptJS ============
 
-
-============ Instalação CodeceptJS ============
-
-
-Upgrade UBUNTU
+1) Upgrade UBUNTU
 sudo apt-get install -f
 sudo apt-get update && sudo apt-get dist-upgrade
 
-
-
-0) Instalação Console Linux
+2) Install Console
 - sudo apt-get update && sudo apt-get upgrade
 - sudo apt-get install gdebi
 
-Install Curl
+3) Install Curl
 - sudo apt-get install curl
 
-1) Install NodeJS v 4.2.0 ou higher:
+4) Install NodeJS v 4.2.0 ou higher:
 - curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash - 
 - sudo apt-get install -y nodejs
 
-
-2) Install Java
+5) Install Java
 - sudo apt-get update
 - sudo apt-get install default-jdk
 
-3) - sudo npx create-codeceptjs .
-3.1) - sudo npx codeceptjs init (Instalar Webdriver) 
+6) Install CodeceptJS 
+- sudo npx create-codeceptjs 
+- sudo npx codeceptjs init (choose Webdriver) 
 
-4) Install Webdrivers
+7) Install Webdrivers
 - sudo npm install -g selenium-standalone
 - sudo selenium-standalone install
-- sudo selenium-standalone start      **(Depois Ctrl Z, pra parar servico)**
+- sudo selenium-standalone start      #(then press Ctrl Z to stop service)#
 - sudo npm install -g selenium-webdriver
 
-5) 
+8) 
 - sudo npm install selenium-standalone@latest -g
 - sudo selenium-standalone install
-- sudo selenium-standalone start      **(Depois Ctrl Z, pra parar servico)**
+- sudo selenium-standalone start      #(then press Ctrl Z to stop service)#
 
-6) Install faker
+9) Install faker
 - sudo npm install faker
 - sudo npm install cpf_cnpj
 
-7) Install MailSlurp
+10) Install MailSlurp
 - Create an account at MailSlurp.com (get apikey)
-- npm i @codeceptjs/mailslurp-helper --save-dev     **ou inserir --force no final**
+- npm i @codeceptjs/mailslurp-helper --save-dev     #(if error, insert --force at the end of command)#
 - npx codeceptjs def
 
-8) Resetar PC 
+11) Restart Computer
 
-============ Inicializar Testes Webdrivers ============
+============ Start CodeceptJS test ============
 
-9) Acessar pasta do projeto em um terinal > Executar Serviço Selenium standalone
-- selenium-standalone start (Deixar rodando no fundo)
+1) Access project folder in terminal > Execute Selenium standalone Service
+- selenium-standalone start 
 
- 
-10) Acessar pasta do projeto em outro terminal > Executar Teste codecept JS
+2) Access project folder in another terminal > Execute test in CodeceptJS
 - npm run codeceptjs
-ou
+or
 - npm run codeceptjs Proto_test.js
+
 
 Credits: Ro-Nemo
