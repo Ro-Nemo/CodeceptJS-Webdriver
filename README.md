@@ -29,7 +29,7 @@ sudo apt-get update && sudo apt-get dist-upgrade
 - sudo npx create-codeceptjs 
 - sudo npx codeceptjs init (choose Webdriver) 
 
-7) Install Webdrivers
+7) Install Selenium Server 
 - sudo npm install -g selenium-standalone
 - sudo selenium-standalone install
 - sudo selenium-standalone start      #(then press Ctrl Z to stop service)#
