@@ -36,18 +36,19 @@ Webdriverio: 6.12.1
 - sudo selenium-standalone start      #(then press Ctrl Z to stop service)#
 - sudo npm install -g selenium-webdriver
 
-8) Install faker
+8) Update WebdriverIO v5 to v6
+- sudo npm install jscodeshift @wdio/codemod
+- npm i --save-dev @wdio/allure-reporter@6 @wdio/cli@6 @wdio/cucumber-framework@6 @wdio/local-runner@6 @wdio/spec-reporter@6 @wdio/sync@6 wdio-chromedriver-service@6 webdriverio@6
+
+9) Install faker
 - sudo npm install faker
 - sudo npm install cpf_cnpj
 
-9) Install MailSlurp
+10) Install MailSlurp
 - Create an account at MailSlurp.com (get apikey)
 - npm i @codeceptjs/mailslurp-helper --save-dev     #(if error, insert --force at the end of command)#
 - npx codeceptjs def
 
-10) Update WebdriverIO v5 to v6
-- sudo npm install jscodeshift @wdio/codemod
-- npm i --save-dev @wdio/allure-reporter@6 @wdio/cli@6 @wdio/cucumber-framework@6 @wdio/local-runner@6 @wdio/spec-reporter@6 @wdio/sync@6 wdio-chromedriver-service@6 webdriverio@6
 
 11) Restart Computer
 
