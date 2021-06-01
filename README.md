@@ -28,7 +28,7 @@ Webdriverio: 6.12.1
 6) Install CodeceptJS 
 - sudo apt install npm
 - sudo npx create-codeceptjs 
-- sudo npx codeceptjs init #(choose Webdriver)# 
+- npx codeceptjs init #(choose Webdriver)# 
 
 7) Install Selenium Server 
 - sudo npm install -g selenium-standalone
