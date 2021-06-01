@@ -31,9 +31,8 @@ Webdriverio: 6.12.1
 - npx codeceptjs init #(choose Webdriver)# 
 
 7) Install Selenium Server 
-- sudo npm install -g selenium-standalone
-- sudo selenium-standalone install
-- sudo selenium-standalone start      #(then press Ctrl Z to stop service)#
+- npm install selenium-standalone --save-dev
+- npx selenium-standalone install && npx selenium-standalone start     #(then press Ctrl c to stop service)#
 - sudo npm install -g selenium-webdriver
 
 8) Update WebdriverIO v5 to v6
@@ -55,7 +54,7 @@ Webdriverio: 6.12.1
 ============ Start CodeceptJS test ============
 
 1) Access project folder in terminal > Execute Selenium standalone Service
-- selenium-standalone start 
+- npx selenium-standalone start
 
 2) Access project folder in another terminal > Execute test in CodeceptJS
 - npm run codeceptjs
