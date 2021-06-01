@@ -17,8 +17,8 @@ Webdriverio: 6.12.1
 3) Install Curl
 - sudo apt-get install curl
 
-4) Install NodeJS v 4.2.0 ou higher:
-- curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash - 
+4) Install NodeJS 
+- curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
 - sudo apt-get install -y nodejs
 
 5) Install Java
@@ -26,6 +26,7 @@ Webdriverio: 6.12.1
 - sudo apt-get install default-jdk
 
 6) Install CodeceptJS 
+- sudo apt install npm
 - sudo npx create-codeceptjs 
 - sudo npx codeceptjs init (choose Webdriver) 
 
