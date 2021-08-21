@@ -11,7 +11,7 @@ exports.config = {
   helpers: {
     WebDriver: {
       url: 'https://mailnesia.com/',
-      browser: 'chrome',
+      browser: 'firefox',
       windowSize: 'maximize',
       //desiredCapabilities: {
         //chromeOptions: {
