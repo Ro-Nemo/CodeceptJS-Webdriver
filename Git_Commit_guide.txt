@@ -1,0 +1,32 @@
+#) GUIDE: https://www.bomberbot.com/git/how-to-make-your-first-git-commit-a-beginners-guide/
+https://git-scm.com/download/win  > Click here to download the latest (2.45.2) 64-bit version of Git for Windows.
+
+ - login github site and login
+ - Inside terminal, access folder repository
+ - Execute:
+    git init
+    git status
+
+    git remote add origin https://github.com/yourusername/yourrepo.git
+	
+-- Update local Repository if necessary
+    git pull
+    or
+    git pull --all
+   
+-- Clone remote Repository to your local machine if necessary
+    git clone https://github.com/yourusername/yourrepo.git
+    git status
+
+-- You can upload files individually, or add everything at once with git add .
+    git add Git_Commit_guide.txt
+    git status
+
+    git commit -m "1st commit"
+    git push -u origin master
+    git status
+
+-- To remove file
+    git rm Git_Commit_guide.txt
+    git commit -m "remove 1st commit"
+    git push -u origin master
